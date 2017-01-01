@@ -1,0 +1,904 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"set",
+				"setCount"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"termo",
+				"termo_1"
+			],
+			[
+				"ter",
+				"termo_2"
+			],
+			[
+				"tax",
+				"tax_2"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"conta",
+				"contaBanner"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"list-",
+				"list-style-type"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Http/Controllers/Auth/LoginController.php",
+			"settings":
+			{
+				"buffer_size": 949,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php",
+			"settings":
+			{
+				"buffer_size": 4309,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/User.php",
+			"settings":
+			{
+				"buffer_size": 581,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Role.php",
+			"settings":
+			{
+				"buffer_size": 91,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Permission.php",
+			"settings":
+			{
+				"buffer_size": 109,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/PostController.php",
+			"settings":
+			{
+				"buffer_size": 712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 22872 files for \"\\App\\User\"\n\n/Users/jonyfernandoschulz/workspace/blog/storage/logs/laravel.log:\n 2747  #26 /Users/jonyfernandoschulz/workspace/blog/server.php(0): {main}()\n 2748  #27 {main}  \n 2749: [2017-01-01 13:35:12] local.ERROR: exception 'Symfony\\Component\\Debug\\Exception\\FatalErrorException' with message 'Class '\\App\\User' not found' in /Users/jonyfernandoschulz/workspace/blog/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php:130\n 2750  Stack trace:\n 2751  #0 /Users/jonyfernandoschulz/workspace/blog/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(133): Symfony\\Component\\Debug\\Exception\\FatalErrorException->__construct()\n\n1 match in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 718,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 131.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"PHP: Generate",
+				"PHP: Generate Getters and Setters"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: int",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 484.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jonyfernandoschulz/workspace/blog",
+		"/Users/jonyfernandoschulz/workspace/blog/.settings",
+		"/Users/jonyfernandoschulz/workspace/blog/app",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Middleware"
+	],
+	"file_history":
+	[
+		"/Users/jonyfernandoschulz/workspace/imovelsp/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Exceptions/Handler.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Console/Kernel.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Providers/RouteServiceProvider.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Providers/EventServiceProvider.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Providers/BroadcastServiceProvider.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Providers/AuthServiceProvider.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Providers/AppServiceProvider.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Middleware/VerifyCsrfToken.php",
+		"/Users/jonyfernandoschulz/workspace/blog/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Middleware/EncryptCookies.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Kernel.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/VueController.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/PostController.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/HomeController.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/Controller.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/Auth/ResetPasswordController.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/Auth/RegisterController.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/Auth/LoginController.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/Auth/ForgotPasswordController.php",
+		"/Users/jonyfernandoschulz/workspace/blog/composer.json",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Post.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Permission.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Role.php",
+		"/Users/jonyfernandoschulz/workspace/blog/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+		"/Applications/eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.ui.themes_1.1.300.v20161107-1827/css/e4_classic_win7.css",
+		"/Applications/eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.ui.themes_1.1.300.v20161107-1827/css/e4_default_mac.css",
+		"/Users/jonyfernandoschulz/workspace/vuejs/index.html",
+		"/Users/jonyfernandoschulz/workspace/vue-simple/index.html",
+		"/Users/jonyfernandoschulz/workspace/vuejs/main.js",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/resources/assets/less/style.less",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/resources/views/home.blade.php",
+		"/Users/jonyfernandoschulz/workspace/imoveloeste/composer.json",
+		"/Users/jonyfernandoschulz/workspace/imoveloeste/composer.lock",
+		"/Users/jonyfernandoschulz/workspace/imoveloeste/app/Events/Event.php",
+		"/Users/jonyfernandoschulz/Library/Application Support/Sublime Text 3/Packages/PHP Getters and Setters/php-getters-setters.sublime-settings",
+		"/Users/jonyfernandoschulz/Library/Application Support/Sublime Text 3/Packages/User/php-getters-setters.sublime-settings",
+		"/Users/jonyfernandoschulz/workspace/imoveloeste/app/Entities/Addresses.php",
+		"/Users/jonyfernandoschulz/workspace/imoveloeste/app/Http/Kernel.php",
+		"/Users/jonyfernandoschulz/workspace/my-polymer-component/app/index.html",
+		"/Users/jonyfernandoschulz/workspace/my-polymer-component/_tmp/scripts/my-polymer-component.js",
+		"/Users/jonyfernandoschulz/Pictures/imoveis/liberty/www.remax.com.br/publiclistinglist.aspx.html",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/page-fullwidth.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/content-imovel.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/content-page.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/page-home.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/single-imoveis.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/functions.php",
+		"/private/var/log/apache2/error_log",
+		"/private/var/folders/f4/n28cm3hj4zdgv5794_b91pfw0000gn/T/fz3temp-1/index.asp",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/app/Http/Controllers/HomeController.php",
+		"/Users/jonyfernandoschulz/workspace/imoveloeste/.env",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/.env",
+		"/Users/jonyfernandoschulz/workspace/imoveloeste/app/Http/routes.php",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/app/Http/routes.php",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/bootstrap/autoload.php",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/app/Http/Controllers/Controller.php",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/app/User.php",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/app/Providers/AuthServiceProvider.php",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/config/app.php",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/bootstrap/cache/.gitignore",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/vendor/laravel/framework/src/Illuminate/Support/Facades/Config.php",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/app/Http/Controllers/ProfileController.php",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/tests/ExampleTest.php",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/composer.json",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/app/Http/Controllers/MediaController.php",
+		"/Users/jonyfernandoschulz/workspace/imovelsp/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+		"/etc/apache2/extra/httpd-default.conf",
+		"/etc/apache2/extra/httpd-vhosts.conf",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_pagination.scss",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_header.scss",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/functions_listpost.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/templates/listaImoveis.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/templates/listaPageImoveis.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_main.scss",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_imovelLista.scss",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/taxonomy-bairro_category.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/page-venda.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_page-venda.scss",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/stylesass.scss",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_utils.scss",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_imovel-detail.scss",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/content-neighborhood.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_tax-bairro_category.scss",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/archive.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/plugins/casaoeste/casaoeste.php",
+		"/Users/jonyfernandoschulz/Downloads/wp_taxonomies_rewrite/functions.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_media-samsung-portrait.scss",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/templates/mainSearch.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/header.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/footer.php",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_footer.scss",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/js/custom/custom.coffee",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_style-768.scss",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_style-980.scss",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/style-768.css",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_image-sprite.scss",
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/bootstrap.css",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/css/home-page.css",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/header.php",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/css/less/style.less",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/variaveis.scss",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/home-page.scss",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/css/less/variables.less",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/templates/listaImoveis.php",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/functions.php",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/single-imoveis.php",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/nova-lite/functions.php",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/casaoeste/functions.php",
+		"/Users/msartini/workspace/casaoeste/wp-content/plugins/wp-live-chat-support/functions.php",
+		"/Users/msartini/workspace/casaoeste/wp-includes/functions.php",
+		"/Users/msartini/workspace/casaoeste/wp-content/plugins/wp-types/embedded/common/debug/functions_debug_information.php",
+		"/Users/msartini/workspace/casaoeste/wp-includes/js/tinymce/utils/form_utils.js",
+		"/Users/msartini/workspace/casaoeste/wp-admin/freedoms.php",
+		"/Users/msartini/workspace/casaoeste/.htaccess",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/css/styleall.css",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/css/variaveis.css",
+		"/Users/msartini/workspace/casaoeste/.htaccess-security",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/templates/listaFotosDeImoveis.php",
+		"/Users/msartini/Liferay/tomcat-7.0.42/conf/server.xml",
+		"/Users/msartini/Liferay/tomcat-7.0.42/conf/catalina.properties",
+		"/Users/msartini/workspace/casaoeste/Gruntfile.js",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/js/plugin.js",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/js/plugin.coffee",
+		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/js/teste.js",
+		"/Users/msartini/workspace/holmes-site-novo/wp-content/themes/CherryFramework/js/custom.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/Users/jonyfernandoschulz/workspace/blog",
+			"/Users/jonyfernandoschulz/workspace/blog/app",
+			"/Users/jonyfernandoschulz/workspace/blog",
+			"/Users/jonyfernandoschulz/workspace/my-polymer-component/app",
+			"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling",
+			"/Users/jonyfernandoschulz/workspace/persianasartini",
+			"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css",
+			"/Users/jonyfernandoschulz/Downloads/wp_taxonomies_rewrite",
+			"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling",
+			"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc",
+			"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css",
+			"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules",
+			"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling",
+			"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules",
+			"/Users/msartini/workspace/casaoeste",
+			"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\App\\User",
+			"<?",
+			"Class App\\Console\\Kernel",
+			"namespace Asset\\",
+			"use Asset\\",
+			"use App\\",
+			"namespace App",
+			"color",
+			"headerTitle",
+			"ola",
+			"title",
+			"rew",
+			"document",
+			"/wwww",
+			"protected",
+			"core-component-page",
+			"front-page",
+			"show_on_front",
+			"front-page",
+			"imóveis em destaque",
+			"destaque",
+			"templates",
+			"casaoeste",
+			"auth",
+			"view",
+			"compiled",
+			"scroll-to-top",
+			"7e7e7e",
+			"imagemThumb",
+			"thumb",
+			"thum",
+			"ARQUIVO",
+			"categor",
+			"taxonomy_slug_rewrite",
+			"_footer",
+			"right reser",
+			"entry-title",
+			"bairro",
+			"font",
+			"return",
+			"++\n",
+			"console",
+			"get",
+			"condominio",
+			"390px",
+			"@font-face",
+			"imovel_bairro",
+			"cidade",
+			"imovel_cidade",
+			"imovelDescritivo",
+			"\t\t \n",
+			"mylivechat",
+			"chat",
+			"s3.",
+			"mylive",
+			"my",
+			"mylive",
+			"buttonTitle",
+			"none",
+			"radio",
+			"top:",
+			".carousel-indicators",
+			"indicators",
+			"67%",
+			"indicator",
+			"3em",
+			"h4",
+			"3em",
+			".carousel",
+			"carouse",
+			"3em",
+			"h4",
+			".carousel-caption",
+			"disp",
+			".carousel-caption",
+			"cap",
+			"carousel-cap",
+			"home-c",
+			"carousel-inner",
+			"posti",
+			"gd",
+			"gc"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"namespace App\\",
+			"use App\\",
+			"use Asset\\",
+			"namespace Asset"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Http/Controllers/Auth/LoginController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3396,
+								3396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1862.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Role.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 91,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Permission.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Http/Controllers/PostController.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 718,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										331,
+										340
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Applications/eclipse/Eclipse.app/Contents",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"imoeloqueuserpro",
+				"imovelsp/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php"
+			],
+			[
+				"eloqueuse",
+				"blog/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php"
+			],
+			[
+				"eloqueuser",
+				"blog/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php"
+			],
+			[
+				"logincontrol",
+				"blog/app/Http/Controllers/Auth/LoginController.php"
+			],
+			[
+				"blovendocontain",
+				"blog/vendor/laravel/framework/src/Illuminate/Container/Container.php"
+			],
+			[
+				"e4css",
+				"Eclipse/plugins/org.eclipse.ui.themes_1.1.300.v20161107-1827/css/e4_default_mac.css"
+			],
+			[
+				"casapluggla",
+				"casaoeste/wp-includes/pluggable.php"
+			],
+			[
+				"imovelsphttroute",
+				"imovelsp/app/Http/routes.php"
+			],
+			[
+				"imoroute",
+				"imoveloeste/app/Http/routes.php"
+			],
+			[
+				"imovcontrohome",
+				"imovelsp/app/Http/Controllers/HomeController.php"
+			],
+			[
+				"conapp.",
+				"config/app.php"
+			],
+			[
+				"booautoload",
+				"bootstrap/autoload.php"
+			],
+			[
+				"control",
+				"app/Http/Controllers/Controller.php"
+			],
+			[
+				"appuser",
+				"app/User.php"
+			],
+			[
+				"routes.",
+				"app/Http/routes.php"
+			],
+			[
+				"route.",
+				"vendor/laravel/framework/src/Illuminate/Routing/Route.php"
+			],
+			[
+				"homecontro",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"appconfig.php",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Config.php"
+			],
+			[
+				"composer.json",
+				"composer.json"
+			],
+			[
+				"contmedia",
+				"app/Http/Controllers/MediaController.php"
+			],
+			[
+				"contentimo",
+				"wp-content/themes/sparkling/content-imovel.php"
+			],
+			[
+				"function",
+				"wp-content/themes/sparkling/functions.php"
+			],
+			[
+				"funcito",
+				"wp-includes/functions.php"
+			],
+			[
+				"header.php",
+				"casaoeste/wp-content/themes/sparkling/header.php"
+			],
+			[
+				"home.css",
+				"src/main/webapp/resources/tema/css/site/home.css"
+			],
+			[
+				"home",
+				"src/main/webapp/resources/tema/scss/home.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 315.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
