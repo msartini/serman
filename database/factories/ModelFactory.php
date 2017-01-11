@@ -32,3 +32,9 @@ $factory->define(Serman\Post::class, function (Faker\Generator $faker) {
     ];
 });
 
+$factory->define(Serman\Task::class, function (Faker\Generator $faker) {
+    return [
+        'body' => $faker->paragraph
+    ];
+});
+

@@ -11,6 +11,7 @@
                 </div>
             </div>
         </div>
+         <button @click="toggleLoginType">Toggle login type</button>
     </div>
 </template>
 

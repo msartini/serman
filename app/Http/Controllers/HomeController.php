@@ -2,6 +2,8 @@
 
 namespace Serman\Http\Controllers;
 
+use Serman\Task;
+
 class HomeController extends Controller
 {
     /**
@@ -21,6 +23,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $tasks = Task::latest()->get();
+
+        return view('home', compact('tasks'));
     }
 }

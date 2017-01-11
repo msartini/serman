@@ -22,6 +22,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('/asset', 'AssetController@index');
 
 Route::get('/vue', 'VueController@index');
+
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/asset', 'AssetController@index');
+});
