@@ -1,0 +1,11 @@
+{
+    "name": "vendor/formatters",
+    "description": "Formatadores para serem utilizados em diversas aplicações",
+    "authors": [
+        {
+            "name": "Marcio S Sartini",
+            "email": "msartini@gmail.com"
+        }
+    ],
+    "require": {},
+}

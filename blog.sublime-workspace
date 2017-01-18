@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"ti",
+				"title\t<title>"
+			],
+			[
+				"js",
+				"json_decode"
+			],
+			[
+				"compo",
+				"component"
+			],
+			[
 				"com",
 				"component"
 			],
@@ -91,6 +111,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/Formatters/FormatterInterface.php",
+			"settings":
+			{
+				"buffer_size": 100,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -99,10 +128,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 131.0,
-		"last_filter": "install",
+		"height": 354.0,
+		"last_filter": "php",
 		"selected_items":
 		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -132,7 +169,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 484.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -154,27 +191,54 @@
 	"expanded_folders":
 	[
 		"/Users/jonyfernandoschulz/workspace/blog",
-		"/Users/jonyfernandoschulz/workspace/blog/resources",
+		"/Users/jonyfernandoschulz/workspace/blog/app",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Formatters",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Providers",
+		"/Users/jonyfernandoschulz/workspace/blog/public/css",
 		"/Users/jonyfernandoschulz/workspace/blog/resources/assets",
-		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/js",
-		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/js/components",
-		"/Users/jonyfernandoschulz/workspace/blog/resources/lang",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/sass",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/sass/custom",
 		"/Users/jonyfernandoschulz/workspace/blog/resources/views",
-		"/Users/jonyfernandoschulz/workspace/blog/resources/views/layouts"
+		"/Users/jonyfernandoschulz/workspace/blog/resources/views/auth",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/views/layouts",
+		"/Users/jonyfernandoschulz/workspace/blog/storage",
+		"/Users/jonyfernandoschulz/workspace/blog/tests"
 	],
 	"file_history":
 	[
-		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/VueController.php",
-		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/js/components/Example.vue",
-		"/Users/jonyfernandoschulz/workspace/blog/resources/views/home.blade.php",
+		"/Users/jonyfernandoschulz/workspace/blog/tests/Serman/Formatters/DateOrderFormatterTest.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Formatters/DateOrderFormatter.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Post.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/HomeController.php",
+		"/Users/jonyfernandoschulz/workspace/blog/tests/Serman/TestCase.php",
+		"/Users/jonyfernandoschulz/workspace/blog/composer.json",
+		"/Users/jonyfernandoschulz/workspace/blog/tests/TestCase.php",
+		"/Users/jonyfernandoschulz/workspace/blog/public/css/app.css",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/sass/app.scss",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/sass/custom/_custom.scss",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/sass/custom/_input.scss",
 		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/js/app.js",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/views/layouts/app.blade.php",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/views/auth/login.blade.php",
+		"/Users/jonyfernandoschulz/.bash_profile",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/materialize-src/js/hammer.js",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/js/components/Article.vue",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/views/home.blade.php",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/js/components/article.vue",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/js/main.js",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/js/components/Example.vue",
+		"/Users/jonyfernandoschulz/workspace/blog/database/migrations/2017_01_07_143044_create_tasks_table.php",
+		"/Users/jonyfernandoschulz/workspace/blog/database/factories/ModelFactory.php",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/js/components/Counter.vue",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/views/vue.blade.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/VueController.php",
 		"/Users/jonyfernandoschulz/workspace/blog/config/entrust.php",
 		"/Users/jonyfernandoschulz/workspace/blog/vendor/zizaco/entrust/src/Entrust/Traits/EntrustUserTrait.php",
 		"/Users/jonyfernandoschulz/workspace/blog/database/seeds/DatabaseSeeder.php",
 		"/Users/jonyfernandoschulz/workspace/blog/database/seeds/PermissionsTableSeeder.php",
 		"/Users/jonyfernandoschulz/workspace/blog/.env",
 		"/Users/jonyfernandoschulz/workspace/blog/config/cache.php",
-		"/Users/jonyfernandoschulz/.bash_profile",
 		"/Users/jonyfernandoschulz/workspace/blog/database/seeds/RolesTableSeeder.php",
 		"/Users/jonyfernandoschulz/workspace/blog/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
 		"/Users/jonyfernandoschulz/workspace/blog/vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php",
@@ -201,13 +265,10 @@
 		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Middleware/EncryptCookies.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Kernel.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/PostController.php",
-		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/HomeController.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/Controller.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/Auth/ResetPasswordController.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/Auth/RegisterController.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/Auth/ForgotPasswordController.php",
-		"/Users/jonyfernandoschulz/workspace/blog/composer.json",
-		"/Users/jonyfernandoschulz/workspace/blog/app/Post.php",
 		"/Users/jonyfernandoschulz/workspace/blog/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
 		"/Applications/eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.ui.themes_1.1.300.v20161107-1827/css/e4_classic_win7.css",
 		"/Applications/eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.ui.themes_1.1.300.v20161107-1827/css/e4_default_mac.css",
@@ -273,25 +334,7 @@
 		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/plugins/casaoeste/casaoeste.php",
 		"/Users/jonyfernandoschulz/Downloads/wp_taxonomies_rewrite/functions.php",
 		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_media-samsung-portrait.scss",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/templates/mainSearch.php",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/header.php",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/footer.php",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_footer.scss",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/js/custom/custom.coffee",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_style-768.scss",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_style-980.scss",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/style-768.css",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_image-sprite.scss",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/bootstrap.css",
-		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/css/home-page.css",
-		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/header.php",
-		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/css/less/style.less",
-		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/variaveis.scss",
-		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/home-page.scss",
-		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/inc/css/less/variables.less",
-		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/templates/listaImoveis.php",
-		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/functions.php",
-		"/Users/msartini/workspace/casaoeste/wp-content/themes/sparkling/single-imoveis.php"
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/templates/mainSearch.php"
 	],
 	"find":
 	{
@@ -325,6 +368,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"10/01/2016",
+			"10/01/2017",
+			"\"",
+			"passedMidNight",
+			"232227",
+			"message",
+			"task",
 			"role",
 			"roles",
 			"AM",
@@ -430,20 +480,51 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/Formatters/FormatterInterface.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -480,7 +561,7 @@
 	"project": "blog.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -489,6 +570,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"migratask",
+				"blog/database/migrations/2017_01_07_143044_create_tasks_table.php"
+			],
 			[
 				"model.ph",
 				"blog/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
@@ -630,7 +715,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 315.0,
+	"side_bar_width": 272.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

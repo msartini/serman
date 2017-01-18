@@ -6,7 +6,8 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.3.*"
+        "laravel/framework": "5.3.*",
+        "guzzlehttp/guzzle": "^6.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -21,13 +22,17 @@
             "database"
         ],
         "psr-4": {
-            "Serman\\": "app/"
+            "Serman\\": "app/",
+            "Devdojo\\Formatters\\": "packages/devdojo/formatters/src/"
         }
     },
     "autoload-dev": {
         "classmap": [
             "tests/TestCase.php"
-        ]
+        ],
+        "pst-4": {
+            "Devdojo\\": "packages/devdojo/formatters/src/tests/"
+        }
     },
     "scripts": {
         "post-root-package-install": [

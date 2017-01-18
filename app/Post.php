@@ -1,10 +1,10 @@
 <?php
 
-namespace Asset;
+namespace Serman;
 
-use Eloquent;
+use Illuminate\Database\Eloquent\Model;
 
-class Post extends Eloquent
+class Post extends Model
 {
 
 protected $fillable = array('title', 'description', 'create_at', 'update_at');

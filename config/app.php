@@ -1,5 +1,4 @@
 <?php
-
 return [
 
     /*
@@ -183,7 +182,7 @@ return [
         // Serman\Providers\BroadcastServiceProvider::class,
         Serman\Providers\EventServiceProvider::class,
         Serman\Providers\RouteServiceProvider::class,
-
+        Devdojo\Formatters\FormatterServiceProvider::class,
     ],
 
     /*

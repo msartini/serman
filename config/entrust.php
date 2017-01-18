@@ -16,10 +16,10 @@ return [
     |--------------------------------------------------------------------------
     |
     | This is the Role model used by Entrust to create correct relations.  Update
-    | the role if it is in a different nSermanespace.
+    | the role if it is in a different namespace.
     |
     */
-    'role' => 'Serman\Role',
+    'role' => 'App\Role',
 
     /*
     |--------------------------------------------------------------------------
@@ -37,10 +37,10 @@ return [
     |--------------------------------------------------------------------------
     |
     | This is the Permission model used by Entrust to create correct relations.
-    | Update the permission if it is in a different nSermanespace.
+    | Update the permission if it is in a different namespace.
     |
     */
-    'permission' => 'Serman\Permission',
+    'permission' => 'App\Permission',
 
     /*
     |--------------------------------------------------------------------------

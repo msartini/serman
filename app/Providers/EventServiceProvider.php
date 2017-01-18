@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'Serman\Events\SomeEvent' => [
-            'Serman\Listeners\EventListener',
+        'Serman\Events\TaskCreatedEvent' => [
+            'Serman\Listeners\ConfirmationSendEmailListener',
         ],
     ];
 
@@ -26,6 +26,13 @@ class EventServiceProvider extends ServiceProvider
     public function boot()
     {
         parent::boot();
+
+        Event::listen(['task.saved'], function () {
+            var_dump('teste');
+            return 'ola';
+        });
+
+
 
         //
     }
