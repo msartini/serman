@@ -112,10 +112,47 @@
 	"buffers":
 	[
 		{
-			"file": "app/Formatters/FormatterInterface.php",
+			"file": "resources/views/jobs/default.blade.php",
 			"settings":
 			{
-				"buffer_size": 100,
+				"buffer_size": 1807,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/web.php",
+			"settings":
+			{
+				"buffer_size": 1075,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 104 files for \"please fill out\"\n\n0 matches\n\nSearching 104 files for \"please fill\"\n\n0 matches",
+			"settings":
+			{
+				"buffer_size": 102,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "resources/views/layouts/app.blade.php",
+			"settings":
+			{
+				"buffer_size": 2538,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/JobController.php",
+			"settings":
+			{
+				"buffer_size": 791,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -191,22 +228,31 @@
 	"expanded_folders":
 	[
 		"/Users/jonyfernandoschulz/workspace/blog",
-		"/Users/jonyfernandoschulz/workspace/blog/app",
-		"/Users/jonyfernandoschulz/workspace/blog/app/Formatters",
-		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers",
-		"/Users/jonyfernandoschulz/workspace/blog/app/Providers",
-		"/Users/jonyfernandoschulz/workspace/blog/public/css",
-		"/Users/jonyfernandoschulz/workspace/blog/resources/assets",
+		"/Users/jonyfernandoschulz/workspace/blog/resources",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/materialize-src/js",
 		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/sass",
-		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/sass/custom",
 		"/Users/jonyfernandoschulz/workspace/blog/resources/views",
-		"/Users/jonyfernandoschulz/workspace/blog/resources/views/auth",
 		"/Users/jonyfernandoschulz/workspace/blog/resources/views/layouts",
-		"/Users/jonyfernandoschulz/workspace/blog/storage",
-		"/Users/jonyfernandoschulz/workspace/blog/tests"
+		"/Users/jonyfernandoschulz/workspace/blog/routes"
 	],
 	"file_history":
 	[
+		"/Users/jonyfernandoschulz/workspace/blog/app/Job.php",
+		"/Users/jonyfernandoschulz/workspace/blog/routes/web.php",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/views/jobs/default.blade.php",
+		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/materialize-src/sass/components/forms/_input-fields.scss",
+		"/Users/jonyfernandoschulz/workspace/blog/.env",
+		"/Users/jonyfernandoschulz/workspace/blog/database/factories/ModelFactory.php",
+		"/Users/jonyfernandoschulz/workspace/blog/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php",
+		"/Users/jonyfernandoschulz/workspace/blog/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php",
+		"/Users/jonyfernandoschulz/workspace/blog/config/mail.php",
+		"/Users/jonyfernandoschulz/workspace/blog/config/services.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Providers/EventServiceProvider.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Events/TaskCreatedEvent.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Listeners/ConfirmationSendEmailListener.php",
+		"/Users/jonyfernandoschulz/workspace/blog/config/app.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Providers/AuthServiceProvider.php",
+		"/Users/jonyfernandoschulz/workspace/blog/app/Formatters/FormatterInterface.php",
 		"/Users/jonyfernandoschulz/workspace/blog/tests/Serman/Formatters/DateOrderFormatterTest.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Formatters/DateOrderFormatter.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Post.php",
@@ -229,7 +275,6 @@
 		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/js/main.js",
 		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/js/components/Example.vue",
 		"/Users/jonyfernandoschulz/workspace/blog/database/migrations/2017_01_07_143044_create_tasks_table.php",
-		"/Users/jonyfernandoschulz/workspace/blog/database/factories/ModelFactory.php",
 		"/Users/jonyfernandoschulz/workspace/blog/resources/assets/js/components/Counter.vue",
 		"/Users/jonyfernandoschulz/workspace/blog/resources/views/vue.blade.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/VueController.php",
@@ -237,13 +282,11 @@
 		"/Users/jonyfernandoschulz/workspace/blog/vendor/zizaco/entrust/src/Entrust/Traits/EntrustUserTrait.php",
 		"/Users/jonyfernandoschulz/workspace/blog/database/seeds/DatabaseSeeder.php",
 		"/Users/jonyfernandoschulz/workspace/blog/database/seeds/PermissionsTableSeeder.php",
-		"/Users/jonyfernandoschulz/workspace/blog/.env",
 		"/Users/jonyfernandoschulz/workspace/blog/config/cache.php",
 		"/Users/jonyfernandoschulz/workspace/blog/database/seeds/RolesTableSeeder.php",
 		"/Users/jonyfernandoschulz/workspace/blog/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
 		"/Users/jonyfernandoschulz/workspace/blog/vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Controllers/AssetController.php",
-		"/Users/jonyfernandoschulz/workspace/blog/routes/web.php",
 		"/Users/jonyfernandoschulz/workspace/blog/resources/views/assets/default.blade.php",
 		"/Users/jonyfernandoschulz/workspace/blog/database/migrations/2017_01_01_213129_create_table_assets.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Permission.php",
@@ -255,9 +298,7 @@
 		"/Users/jonyfernandoschulz/workspace/blog/app/Exceptions/Handler.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Console/Kernel.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Providers/RouteServiceProvider.php",
-		"/Users/jonyfernandoschulz/workspace/blog/app/Providers/EventServiceProvider.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Providers/BroadcastServiceProvider.php",
-		"/Users/jonyfernandoschulz/workspace/blog/app/Providers/AuthServiceProvider.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Providers/AppServiceProvider.php",
 		"/Users/jonyfernandoschulz/workspace/blog/app/Http/Middleware/VerifyCsrfToken.php",
 		"/Users/jonyfernandoschulz/workspace/blog/vendor/laravel/framework/src/Illuminate/Container/Container.php",
@@ -323,18 +364,7 @@
 		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_main.scss",
 		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_imovelLista.scss",
 		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/taxonomy-bairro_category.php",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/page-venda.php",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_page-venda.scss",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/stylesass.scss",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_utils.scss",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_imovel-detail.scss",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/content-neighborhood.php",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_tax-bairro_category.scss",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/archive.php",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/plugins/casaoeste/casaoeste.php",
-		"/Users/jonyfernandoschulz/Downloads/wp_taxonomies_rewrite/functions.php",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/inc/css/scss/modules/_media-samsung-portrait.scss",
-		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/templates/mainSearch.php"
+		"/Users/jonyfernandoschulz/workspace/casaoeste/wp-content/themes/sparkling/page-venda.php"
 	],
 	"find":
 	{
@@ -345,6 +375,9 @@
 		"height": 158.0,
 		"where_history":
 		[
+			"/Users/jonyfernandoschulz/workspace/blog/resources/assets",
+			"/Users/jonyfernandoschulz/workspace/blog/resources/assets/materialize-src/js",
+			"/Users/jonyfernandoschulz/workspace/blog/resources/assets/materialize-src",
 			"/Users/jonyfernandoschulz/workspace/blog",
 			"/Users/jonyfernandoschulz/workspace/blog/app",
 			"/Users/jonyfernandoschulz/workspace/blog",
@@ -368,6 +401,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"please fill",
+			"please fill out",
+			"valid",
+			"input-field",
+			"nginx",
+			"localhost",
 			"10/01/2016",
 			"10/01/2017",
 			"\"",
@@ -480,43 +519,172 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
+		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Formatters/FormatterInterface.php",
+					"file": "resources/views/jobs/default.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 100,
+						"buffer_size": 1807,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								65,
-								65
+								467,
+								467
 							]
 						],
 						"settings":
 						{
 							"colorcode": true,
-							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 212.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								797,
+								797
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 227.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"default_dir": "/Applications/eclipse/Eclipse.app/Contents",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/layouts/app.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1428,
+								1428
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1026.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Http/Controllers/JobController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								773,
+								773
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 220.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -570,6 +738,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"jobcontro",
+				"blog/app/Http/Controllers/JobController.php"
+			],
+			[
+				"rowe",
+				"blog/routes/web.php"
+			],
+			[
+				"bloconnecto",
+				"blog/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php"
+			],
+			[
+				"bloconnector.",
+				"blog/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php"
+			],
 			[
 				"migratask",
 				"blog/database/migrations/2017_01_07_143044_create_tasks_table.php"

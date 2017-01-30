@@ -4,7 +4,7 @@
 
 <div class="container">
     <div class="row">
-        <h2>Equipamentos</h2>
+        <h2>Vagas</h2>
     </div>
     <div class="row">
 
@@ -12,11 +12,11 @@
             <form class="form-horizontal" role="form">
                 <div class="form-group">
 
-                    <label for="name" class="col-sm-2 control-label">
-                        Name
+                    <label for="nome" class="col-sm-2 control-label">
+                        Vaga
                     </label>
                     <div class="col-sm-10">
-                        <input type="name" class="form-control" id="name" />
+                        <input type="text" class="form-control" name="jobs" id="jobs" />
                     </div>
                 </div>
                 <div class="form-group">
@@ -25,24 +25,7 @@
                         Description
                     </label>
                     <div class="col-sm-10">
-                        <input type="description" class="form-control" id="description" />
-                    </div>
-                </div>
-
-                <div class="form-group">
-
-                    <label for="number" class="col-sm-2 control-label">
-                        Number
-                    </label>
-                    <div class="col-sm-3">
-                        <input type="number" class="form-control" id="number" />
-                    </div>
-
-                    <label for="grouping_name" class="col-sm-2 control-label">
-                        Grupo
-                    </label>
-                    <div class="col-sm-3">
-                        <input type="grouping_name" class="form-control" id="grouping_name" />
+                        <input type="text" class="form-control" id="description" />
                     </div>
                 </div>
 

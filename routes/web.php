@@ -17,6 +17,21 @@ Route::get('/', function () {
 
 
 Route::resource('posts', 'PostController');
+Route::resource(
+    'vagas',
+    'JobController',
+    [
+        'names' => [
+            'index' => 'jobs.index',
+            'store' => 'jobs.store',
+            'show' => 'jobs.show',
+            'destroy' => 'jobs.destroy',
+            'update' => 'jobs.update',
+            'edit' => 'jobs.edit',
+            'create' => 'jobs.create',
+        ]
+    ]
+);
 
 Auth::routes();
 
@@ -24,6 +39,8 @@ Route::get('/home', 'HomeController@index');
 
 
 Route::get('/vue', 'VueController@index');
+
+
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/asset', 'AssetController@index');

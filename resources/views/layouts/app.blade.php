@@ -11,10 +11,10 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/-->
 
     <!-- Styles -->
-    <link href="/css/app.css" rel="stylesheet">
+    <link href="css/app.css?{{date('YmdHis')}}" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
@@ -65,9 +65,7 @@
       </div>
     </nav>
 
-
-
-        @yield('content')
+    @yield('content')
 
     </div>
 
@@ -78,6 +76,11 @@
     <script src="/js/app.js"></script>
     <script>
         $(".button-collapse").sideNav();
+          $(document).ready(function() {
+            Materialize.updateTextFields();
+          });
+
     </script>
+
 </body>
 </html>
